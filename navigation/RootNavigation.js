@@ -46,7 +46,14 @@ this.props.navigator.showLocalAlert(
 'Push note ${origin} with data: ${JSON.stringify(data)}',
 Alerts.notice
 );
-
+};
 }
-
-}
+ const styles = StyleSheet.create({
+     container: {
+         flex: 1,
+         backgroundColor:'#fff',
+     },
+        selectedTab: {
+            color: Colors.tabIconSelected,
+        },
+ });
