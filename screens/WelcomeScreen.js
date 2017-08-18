@@ -18,3 +18,5 @@ import {
 import { connect } from 'react-redux';
 import { MonoText } from '../components/StyledText';
 import { FontAwesome } from '@expo/vector-icons';
+
+export class default 
